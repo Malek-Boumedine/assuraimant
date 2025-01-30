@@ -152,6 +152,6 @@ EMAIL_HOST_PASSWORD = 'wosdxtiuxexloijz'
 
 django_heroku.settings(locals())
 
-DJANGO_SUPERUSER_USERNAME = os.environ.get('admin')
-DJANGO_SUPERUSER_EMAIL = os.environ.get('alghom.ia@gmail.com')
-DJANGO_SUPERUSER_PASSWORD = os.environ.get('admin')
+DJANGO_SUPERUSER_USERNAME = os.environ.get('DJANGO_SUPERUSER_USERNAME')
+DJANGO_SUPERUSER_EMAIL = os.environ.get('DJANGO_SUPERUSER_EMAIL')
+DJANGO_SUPERUSER_PASSWORD = os.environ.get('DJANGO_SUPERUSER_PASSWORD')
