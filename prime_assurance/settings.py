@@ -157,3 +157,7 @@ try:
     import create_superuser
 except:
     pass
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://assuraimant.onrender.com',
+]
