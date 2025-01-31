@@ -152,3 +152,8 @@ EMAIL_HOST_PASSWORD = 'wosdxtiuxexloijz'
 DJANGO_SUPERUSER_USERNAME = os.environ.get('DJANGO_SUPERUSER_USERNAME')
 DJANGO_SUPERUSER_EMAIL = os.environ.get('DJANGO_SUPERUSER_EMAIL')
 DJANGO_SUPERUSER_PASSWORD = os.environ.get('DJANGO_SUPERUSER_PASSWORD')
+
+try:
+    import create_superuser
+except:
+    pass
