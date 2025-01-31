@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 import os
 from dotenv import load_dotenv
-import django_heroku
 
 
 load_dotenv()
@@ -149,8 +148,6 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'alghom.ia@gmail.com'
 EMAIL_HOST_PASSWORD = 'wosdxtiuxexloijz'
 
-
-django_heroku.settings(locals())
 
 DJANGO_SUPERUSER_USERNAME = os.environ.get('DJANGO_SUPERUSER_USERNAME')
 DJANGO_SUPERUSER_EMAIL = os.environ.get('DJANGO_SUPERUSER_EMAIL')
